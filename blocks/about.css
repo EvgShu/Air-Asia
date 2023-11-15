@@ -1,0 +1,34 @@
+.about {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.about__image {
+    width: 490px;
+    height: 505px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.about__content {
+    background: url("../img/mountains.png");
+    color: #001821;
+    width: 785px;
+    height: 455px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 68px 200px 65px 80px;
+    margin-top: 96px;
+    margin-left: -136px;
+    }
+
+.about__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+
+.about__text {
+    line-height: 27px;
+    margin-bottom: 70px;
+}

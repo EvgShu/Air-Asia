@@ -1,0 +1,102 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    height: 150px;
+    align-items: center;
+    margin-top: auto;
+    background: #001821;
+}
+
+.footer__left {
+    display: flex;
+    align-items: center;
+}
+
+.logo--footer {
+    top: 43px;
+}
+
+.menu--footer {
+    top: 57px;
+    left: 166px;
+}
+
+.footer__right {
+    display: flex;
+    align-items: center;
+}
+
+.sociale {
+    margin-right: 74px;
+}
+
+.sociale__list {
+    display: flex;
+}
+
+.sociale__item {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.sociale__item:last-child {
+    margin-right: 0;
+}
+
+.sociale__icon {
+    width: 36px;
+    height: 36px;
+}
+
+.sociale__link {
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+
+.sociale__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+}
+
+.sociale__link--tg:after {
+    background: url("../img/css_sprites.png") -178px -10px;
+}
+
+.sociale__link--vk:after {
+    background: url("../img/css_sprites.png") -122px -10px;
+}
+
+.sociale__link--fb:after {
+    background: url("../img/css_sprites.png") -10px -10px;
+}
+
+.sociale__link--in:after {
+    background: url("../img/css_sprites.png") -66px -10px;
+}
+
+.contacts--footer {
+    top: 44px;
+}
+
+.contacts__free-call {
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+/* Services Page */
+
+.container--footer {
+    display: flex;
+    justify-content: space-between;
+}

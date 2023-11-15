@@ -1,0 +1,19 @@
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/preview.css');
+@import url('./blocks/hot-tours.css');
+@import url('./blocks/news.css');
+@import url('./blocks/about.css');
+@import url('./blocks/footer.css');
+
+@import url('./blocks/top-line.css');
+@import url('./blocks/service.css');
+@import url('./blocks/partners.css');
+
+@import url('./blocks/reviews.css');
+@import url('./blocks/separator.css');
+@import url('./blocks/form.css');
+
+@import url('./blocks/welcome.css');

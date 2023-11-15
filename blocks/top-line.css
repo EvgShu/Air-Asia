@@ -1,0 +1,53 @@
+.top-line {
+    display: flex;
+    flex-direction: column;
+    background:url("../img/headline.png") right 50% top no-repeat;
+    min-height: 410px;
+    padding-bottom: 18px;
+}
+
+.container--top-line {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-line__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 98px;
+    margin-bottom: 14px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs_item {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.breadcrumbs_item--active {
+    font-weight: bold;
+    margin-right: 0;
+}
+
+.breadcrumbs_item:after {
+    content: "/";
+    color: #9A9A9A;
+    margin-left: 8px;
+}
+
+.breadcrumbs_item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    text-decoration: underline;
+    font-size: 14px;
+}

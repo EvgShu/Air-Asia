@@ -1,0 +1,111 @@
+.form-section {
+    background: #F4F5F5;
+    padding: 65px 0 95px 0;
+    color: #1A1B1E;
+}
+
+.form__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 54px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.form__row:last-child {
+    margin-bottom: 0;
+}
+
+.form__imput {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: #1A1B1E;
+    background: #fff;
+    font-size: 18px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.form__imput:hover {
+    border-color: #F5170E;
+}
+
+.form__imput:focus {
+    border-color: #F5170E;
+    background: #FEFEFE;
+    outline: none;
+}
+
+.form__imput:placeholder {
+    color: #666;
+}
+
+.form__imput:last-child {
+    margin-right: 0;
+}
+
+.form__imput--textarea {
+    min-height: 235px;
+    padding-top: 35px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.form__controls-tiitle {
+    width: 442px;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+.controls__list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-bottom: -10px;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.conrols__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__tag:hover {
+    border: 1px solid #2B2B2B;
+}
+
+.conrols__checkbox {
+    display: none;
+}
+
+.form__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button--border--back {
+    background: #2B2B2B;
+    color: #fff;
+    margin-right: 17px;
+    width: 168px;
+}
+
+.button--border--back:hover {
+    background: #fff;
+    border-color: #2B2B2B;
+    color: #2B2B2B;
+}
